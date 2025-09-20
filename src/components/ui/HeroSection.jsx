@@ -121,11 +121,11 @@ const HeroSection = () => {
                 className="hidden lg:block absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-5xl h-64"
                 variants={imageVariants}
             >
-                <img
+{/*                 <img
                     src="https://cdn.dribbble.com/users/236991/screenshots/1073136/chart.gif"
                     alt="Financial Dashboard"
                     className="object-contain w-full h-full"
-                />
+                /> */}
             </motion.div>
             <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-white to-transparent"></div>
         </motion.section>
@@ -134,3 +134,4 @@ const HeroSection = () => {
 
 
 export default HeroSection;
+
