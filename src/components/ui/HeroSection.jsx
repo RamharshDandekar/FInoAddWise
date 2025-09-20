@@ -67,7 +67,7 @@ const HeroSection = () => {
                 >
                     <TypeAnimation
                         sequence={[
-                            'Navigate Your Financial Future with',
+                            'Navigate Your Financial Future',
                             1000,
                             '',
                         ]}
@@ -131,5 +131,6 @@ const HeroSection = () => {
         </motion.section>
     );
 };
+
 
 export default HeroSection;
